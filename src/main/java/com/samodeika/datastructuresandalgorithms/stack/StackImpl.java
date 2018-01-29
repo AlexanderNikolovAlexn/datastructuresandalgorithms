@@ -58,6 +58,11 @@ public class StackImpl<T> implements Stack<T> {
     }
 
     @Override
+    public int getSize() {
+        return this.size;
+    }
+
+    @Override
     public String toString() {
         return "StackImpl{" +
                 "array=" + Arrays.toString(array) +
